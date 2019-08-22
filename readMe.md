@@ -31,7 +31,11 @@ git diff HAED -- filename 查看工作区与版本库中文件的不同
 
 ## 撤销修改
 
-git checkout --  filename  可以把提交到暂存区的文件撤销回来
+git checkout --  filename  可以把未提交的工作区文件撤销
 注：没有 -- 的话就会变成切换另一分支
+
+git reset HEAD <file> 可以把提交到暂存区的修改撤销重新放回工作区；
+
+
 
 
