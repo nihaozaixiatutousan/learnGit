@@ -1,5 +1,5 @@
 # git
-
+prefers
 ----
 
 ## demo:
@@ -24,5 +24,14 @@ git  commit -m 'new message'  git仓库中的文件提交到git-->master分支�
 
   -   git reset --hard e375afc(此为版本号头） 回退到你想回退的版本号
 
+
+git diff HAED -- filename 查看工作区与版本库中文件的不同 
+
+
+
+## 撤销修改
+
+git checkout --  filename  可以把提交到暂存区的文件撤销回来
+注：没有 -- 的话就会变成切换另一分支
 
 
