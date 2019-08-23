@@ -105,4 +105,8 @@ git push origin tagname  推送某个标签到远程
 
 git push origin --tags  一次性全部推送
 
+## 自定义git
+
+.gitignore 创建.gitignore文件把想要忽略的文件写入，Git提交的时候就会自动忽略这些文件
+
 
