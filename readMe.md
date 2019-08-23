@@ -84,3 +84,5 @@ git stash pop  恢复并删除
 git stash apply  stash@{0}  通过隐藏区中给定的编号指定恢复
 
 git cherry-pick <number&string> 恢复指定的提交到当前分支
+
+git log --graph --pretty=oneline --abbrev-commit 查看合并分支详情
