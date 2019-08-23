@@ -41,6 +41,17 @@ git reset HEAD <file> 可以把提交到暂存区的修改撤销重新放回工�
 
 ssh-keygen -t rsa -C '283421724@qq.com'  创建ssh key
 
+git remote add origin git@github.com:nihaozaixiatutousan/learnGit.git 此方法可以仓库的名字简写为 origin
+
+```
+    git push -u origin master   把本地master分支推送到远程仓库。
+
+    注： -u  git不仅会把master分支推送 其他分支也会被推送。 
+
+```
+
+
+
 
 
 
