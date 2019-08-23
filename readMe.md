@@ -93,4 +93,16 @@ git remote -v 查看远程仓库地址
 
 
 
+## 标签管理
+
+git tag /<name/> 为git commit 打标签
+
+git tag v0.9  f52c633  为commit id 为f52c633提交打标签
+
+git tag v1.0 -m 'information' as25413  为标签添加信息
+
+git push origin tagname  推送某个标签到远程
+
+git push origin --tags  一次性全部推送
+
 
