@@ -59,3 +59,7 @@ git branch <name>  创建分支名字
 git checkout <name>  切换到name分支
 
 git checkout -b <name> 创建name分支并切换到name分支
+
+git branch 查看所拥有的的分支
+
+
