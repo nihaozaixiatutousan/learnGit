@@ -49,11 +49,13 @@ git remote add origin git@github.com:nihaozaixiatutousan/learnGit.git 此方法�
     注： -u  git不仅会把master分支推送 其他分支也会被推送。 
 
 ```
+git clone <ssh || https>  可以把远程仓库克隆到本地
 
 
+## 分支管理
 
+git branch <name>  创建分支名字
 
+git checkout <name>  切换到name分支
 
-
-
-
+git checkout -b <name> 创建name分支并切换到name分支
