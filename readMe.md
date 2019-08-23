@@ -63,8 +63,6 @@ git checkout -b <name> 创建name分支并切换到name分支
 git branch 查看所拥有的的分支
 
 git branch -d dev 删除dev 分支
-<<<<<<< HEAD
-=======
 
 git log --graph 可查看分支合并情况
 
@@ -83,4 +81,3 @@ git stash pop  恢复并删除
 git stash apply  stash@{0}  通过隐藏区中给定的编号指定恢复
 
 git cherry-pick <number&string> 恢复指定的提交到当前分支
->>>>>>> 0e1bdb3... git stash command annotaton
