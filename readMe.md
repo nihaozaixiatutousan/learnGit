@@ -109,4 +109,16 @@ git push origin --tags  一次性全部推送
 
 .gitignore 创建.gitignore文件把想要忽略的文件写入，Git提交的时候就会自动忽略这些文件
 
+git add -f filename 可强制添加被.gitignore忽略文件。
+
+git config --global alias.st status 为status 配置别名
+
+git config --global alias.ls last  
+
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"   
+
+
+--global 文件放置在 .git/config 
+
+
 
