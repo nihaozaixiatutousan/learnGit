@@ -86,3 +86,11 @@ git stash apply  stash@{0}  通过隐藏区中给定的编号指定恢复
 git cherry-pick <number&string> 恢复指定的提交到当前分支
 
 git log --graph --pretty=oneline --abbrev-commit 查看合并分支详情
+
+git branch -D <name> 强行删除未合并的分支
+
+git remote -v 查看远程仓库地址 
+
+
+
+
