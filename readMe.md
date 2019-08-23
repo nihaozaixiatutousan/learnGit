@@ -68,3 +68,5 @@ git branch 查看所拥有的的分支
 git branch -d dev 删除dev 分支
 
 git log --graph 可查看分支合并情况
+
+git merge --no-ff -m 'close fast forward' dev  表示禁用fast forward可以更直观的观察合并情况。
