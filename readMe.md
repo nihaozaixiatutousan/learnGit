@@ -61,5 +61,5 @@ git checkout <name>  切换到name分支
 git checkout -b <name> 创建name分支并切换到name分支
 
 git merge dev   合并指定的当前分支
-
+注: 合并中出现的问题 git status 查看想关问题。
 
