@@ -66,3 +66,5 @@ git merge dev   合并指定的当前分支
 git branch 查看所拥有的的分支
 
 git branch -d dev 删除dev 分支
+
+git log --graph 可查看分支合并情况
