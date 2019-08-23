@@ -62,4 +62,4 @@ git checkout -b <name> 创建name分支并切换到name分支
 
 git branch 查看所拥有的的分支
 
-
+git branch -d dev 删除dev 分支
